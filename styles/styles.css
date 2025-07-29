@@ -2,6 +2,7 @@ body{
     border: 1px solid white;
     max-width: 1140px;
     margin: 0 auto;
+    padding-bottom: 200px;
 }
 .navbar{
     display: flex;
@@ -169,7 +170,79 @@ nav ul li{
 .latest-deals{
     margin-top: 100px;
 }
-
+.image-add{
+    gap: 25px;
+    display: flex;
+}
+.bloom{
+    background-image: url('../assets/deal-bloom.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 367px;
+    height: 201px;
+    border-radius: 14px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    
+}
+.ana{
+    background-image: url('../assets/deal-ana.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 367px;
+    height: 201px;
+    border-radius: 14px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.zabo{
+    background-image: url('../assets/deal-zabo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 750px;
+    height: 423px;
+    border-radius: 22px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.bloom a, .ana a{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.latest-title{
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-top: -2px;
+    margin-bottom: 10px;
+}
+.latest-title1{
+    font-size: 2.6rem;
+    font-weight: bold;
+    margin-top: -2px;
+    margin-bottom: 10px;
+}
+.zabo a{
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: white;
+}
 
 
 
@@ -280,4 +353,25 @@ nav ul li{
         margin-top: 5px;
         margin-left: 17px;
     }
+    .latest-deals{
+        margin-top: 200px;
+    }
+    .image-add{
+        margin-top: 0;
+        margin-left: 20px;
+        flex-direction: column;
+    }
+    .zabo{
+        width: 361px;
+        height: 178px;
+    }
+    .latest-title{
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+    .latest-title1{
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+
 }
