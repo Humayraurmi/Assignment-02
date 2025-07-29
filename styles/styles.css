@@ -1,14 +1,15 @@
-body{
+body {
     border: 1px solid white;
     max-width: 1140px;
     margin: 0 auto;
-    padding-bottom: 200px;
+    
 }
-.navbar{
+
+.navbar {
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
-    
+
     margin-bottom: 120px;
     width: 1140px;
     height: 71px;
@@ -16,74 +17,88 @@ body{
     text-align: center;
 }
 
-li a{
+li a {
     text-decoration: none;
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
     padding-right: 20px;
 }
+
 .nav-list ul {
     display: flex;
-    
+
 }
-.dark{
+
+.dark {
     color: #252432;
     font-weight: bold;
 }
-.dark-1{
+
+.dark-1 {
     color: #8987A1;
     font-weight: bold;
 }
-.dark-2{
+
+.dark-2 {
     color: #000000;
 }
+
 /*banner section*/
-.banner{
+.banner {
     height: 461px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 0;
 }
-.banner-text{
+
+.banner-text {
     width: 570px;
     height: auto;
     padding-bottom: 0;
 }
-.banner-title{
+
+.banner-title {
     font-size: 4rem;
     font-weight: bold;
     margin-bottom: 10px;
 }
-.orange-c{
+
+.orange-c {
     color: #E95A08;
 }
-.banner-description{
+
+.banner-description {
     font-size: 1.4rem;
     margin-top: 10px;
     color: rgba(0, 0, 0, 0.5);
 }
-.banner-image{
+
+.banner-image {
     width: 570px;
     height: 355px;
 }
-.banner-image img{
+
+.banner-image img {
     width: 100%;
 }
 
 /*plants section*/
-.plants-text{
+.plants-text {
     width: 100%;
     height: 138px;
     text-align: center;
 }
-.plants-title{
+
+.plants-title {
     font-size: 3rem;
     font-weight: bold;
     margin-bottom: 0;
 }
-.plants-description{
+
+.plants-description {
     width: 888px;
     height: 54px;
     margin-right: 126px;
@@ -91,39 +106,46 @@ nav ul li{
     color: rgba(0, 0, 0, 0.5);
     font-size: 1.3rem;
 }
-.container{
+
+.container {
     margin-top: 30px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
-.flower{
+
+.flower {
     width: 270px;
     height: 485px;
     text-align: center;
     margin-bottom: 30px;
 }
-.flower img{
+
+.flower img {
     width: 100%;
 }
-.plants-image{
+
+.plants-image {
     width: 270px;
     height: 322.94px;
     padding-bottom: 15px;
 }
-.flower-title{
+
+.flower-title {
     color: #111111;
     font-size: 1.4rem;
     margin: 0;
     font-weight: bold;
 }
-.flower-price{
+
+.flower-price {
     color: #111111;
     font-size: 1.4rem;
     margin: 0;
     font-weight: bold;
     padding-bottom: 20px;
 }
-.btn-primary{
+
+.btn-primary {
     width: 270px;
     height: 50px;
     background-color: #E95A08;
@@ -132,49 +154,58 @@ nav ul li{
     font-size: 1rem;
     font-weight: 500;
 }
-.flower-lover{
+
+.flower-lover {
     margin-top: 140px;
     display: flex;
     justify-content: space-between;
     gap: auto;
 }
-.plants-lover-image{
+
+.plants-lover-image {
     width: 540px;
     height: 597px;
     position: relative;
 }
-.badge{
-     position: absolute;
-     width: 286px;
-     height: 350px;
-     margin-left: -300px;
-     margin-top: -200px;
+
+.badge {
+    position: absolute;
+    width: 286px;
+    height: 350px;
+    margin-left: -300px;
+    margin-top: -200px;
 }
-.plants-lover-image img{
+
+.plants-lover-image img {
     width: 100%;
 }
 
-.lover-description{
+.lover-description {
     width: 540px;
     height: 521px;
     margin-top: 38px;
     margin-bottom: 38px;
 }
-.lover-title{
+
+.lover-title {
     font-size: 4rem;
 }
-.lover-details{
+
+.lover-details {
     font-size: 1.4rem;
     color: rgba(0, 0, 0, 0.5);
 }
-.latest-deals{
+
+.latest-deals {
     margin-top: 100px;
 }
-.image-add{
+
+.image-add {
     gap: 25px;
     display: flex;
 }
-.bloom{
+
+.bloom {
     background-image: url('../assets/deal-bloom.png');
     background-size: cover;
     background-position: center;
@@ -189,9 +220,10 @@ nav ul li{
     align-items: center;
     justify-content: center;
     margin-bottom: 25px;
-    
+
 }
-.ana{
+
+.ana {
     background-image: url('../assets/deal-ana.png');
     background-size: cover;
     background-position: center;
@@ -206,7 +238,8 @@ nav ul li{
     align-items: center;
     justify-content: center;
 }
-.zabo{
+
+.zabo {
     background-image: url('../assets/deal-zabo.png');
     background-size: cover;
     background-position: center;
@@ -221,38 +254,169 @@ nav ul li{
     align-items: center;
     justify-content: center;
 }
-.bloom a, .ana a{
+
+.bloom a,
+.ana a {
     color: white;
     font-size: 1.2rem;
     font-weight: bold;
 }
-.latest-title{
+
+.latest-title {
     font-size: 1.6rem;
     font-weight: bold;
     margin-top: -2px;
     margin-bottom: 10px;
 }
-.latest-title1{
+
+.latest-title1 {
     font-size: 2.6rem;
     font-weight: bold;
     margin-top: -2px;
     margin-bottom: 10px;
 }
-.zabo a{
+
+.zabo a {
     font-size: 1.6rem;
     font-weight: bold;
     color: white;
 }
 
+.join {
+    margin-top: 100px;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    width: 100vw;
+    background-image: url('../assets/news-letter-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 533px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.join {
+    margin-top: 100px;
+    position: relative;
+    left: 50%;
+    margin-left: -50vw;
+    width: 100vw;
+    background-image: url('../assets/news-letter-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 533px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.join-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.join-title {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.join-form {
+    display: flex;
+}
+
+.join-form input[type="email"] {
+    padding: 10px;
+    width: 644px;
+    border: none;
+
+}
+
+.join-form input[type="button"] {
+    padding: 10px 20px;
+    background-color: #E95A08;
+    color: white;
+    width: 186px;
+    border: none;
+    cursor: pointer;
+}
+
+.footer-section {
+    margin-top: 100px;
+    display: flex;
+    gap: 52px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.logo-footer {
+    width: 350px;
+    height: 179px;
+}
+
+.footer-description {
+    width: 350px;
+    height: 81px;
+    font-size: 1.4rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.footer-nav ul li {
+    list-style: none;
+    margin-bottom: 20px;
+    color: #6B7280;
+}
+
+.footer-nav {
+    display: flex;
+    gap: 50px;
+}
+
+.nav-item {
+    padding: 10px;
+    gap: 15px;
+    width: 85px;
+    height: 248px;
+}
+
+.nav-item1 {
+    padding: 10px;
+    width: 128px;
+    height: 248px;
+}
+
+.social-icons {
+    width: 216px;
+    height: 36px;
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+    margin-right: 100px;
+}
+
+
+
 
 
 @media screen and (max-width: 576px) {
-    body{
+    body {
         border: 1px solid white;
         max-width: 576px;
         margin: 0 auto;
+        margin-bottom: 50px;
+        padding-bottom: 120px;
     }
-    .navbar{
+
+    .navbar {
         width: 361px;
         height: 38px;
         margin-top: 67px;
@@ -260,118 +424,212 @@ nav ul li{
         margin-right: 16px;
         margin-bottom: 28px;
     }
-    .dark, .dark-1{
+
+    .dark,
+    .dark-1 {
         visibility: hidden;
     }
+
     .nav-list ul li a {
         font-size: 12px;
         white-space: nowrap;
         align-items: center;
     }
-    .banner{
+
+    .banner {
         flex-direction: column-reverse;
         margin-top: 28px;
         align-items: center;
         padding: 0;
     }
-    .banner-title{
+
+    .banner-title {
         font-size: 2rem;
         line-height: 1.2;
     }
-    .banner-text{
+
+    .banner-text {
         width: 361px;
         height: 200px;
         padding: 2px;
     }
-    .banner-description{
+
+    .banner-description {
         font-size: 0.8rem;
         line-height: 1.2;
     }
-    .banner-image{
+
+    .banner-image {
         width: 450px;
         height: 245px;
     }
-    .banner-image img{
+
+    .banner-image img {
         width: 100%;
     }
-    .plants-title{
+
+    .plants-title {
         font-size: 1.5rem;
     }
-    .plants-description{
+
+    .plants-description {
         font-size: 0.8rem;
         margin-right: 28.5px;
         margin-left: 28.5px;
         width: 336px;
         height: 68px;
     }
-    .container{
+
+    .container {
         margin-top: 0;
         grid-template-columns: repeat(2, 1fr);
     }
-    .flower{
+
+    .flower {
         margin-left: 17px;
         margin-right: 17px;
         width: 171px;
         height: 340.5px;
     }
-    .plants-image{
+
+    .plants-image {
         width: 171px;
         height: 195px;
     }
-    .flower-title{
+
+    .flower-title {
         font-size: 1rem;
         margin: 0;
 
     }
-    .flower-price{
+
+    .flower-price {
         font-size: 1rem;
         margin: 0;
     }
-    .btn-primary{
+
+    .btn-primary {
         width: 171px;
         height: 50px;
     }
-    .flower-lover{
+
+    .flower-lover {
         margin-top: 20px;
         flex-direction: column;
     }
-    
-    .plants-lover-image{
+
+    .plants-lover-image {
         width: 368px;
         height: 396px;
         margin-left: 17px;
     }
-    .badge{
+
+    .badge {
         visibility: hidden;
     }
-    .lover-title{
+
+    .lover-title {
         font-size: 1.5rem;
     }
-    .lover-description{
+
+    .lover-description {
         width: 361px;
         height: 234px;
         margin-top: 5px;
         margin-left: 17px;
     }
-    .latest-deals{
+
+    .latest-deals {
         margin-top: 200px;
     }
-    .image-add{
+
+    .image-add {
         margin-top: 0;
         margin-left: 20px;
         flex-direction: column;
     }
-    .zabo{
+
+    .zabo {
         width: 361px;
         height: 178px;
     }
-    .latest-title{
+
+    .latest-title {
         font-size: 1.4rem;
         font-weight: bold;
     }
-    .latest-title1{
+
+    .latest-title1 {
         font-size: 1.4rem;
         font-weight: bold;
     }
+
+    .join {
+        margin-top: 50px;
+        width: 450px;
+        height: 276px;
+    }
+
+    .join-title {
+        font-size: 1.2rem;
+    }
+
+    .join-form input[type="email"] {
+        width: 280px;
+    }
+
+    .join-form input[type="button"] {
+        width: 103px;
+    }
+
+    .footer-section {
+        margin-top: 50px;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 20px;
+        padding-right: 20px;
+        gap: 30px;
+        margin-bottom: 50px;
+        padding-bottom: 0;
+    }
+
+    .logo-footer {
+        width: 100%;
+    }
+
+    .footer-description {
+        font-size: 1rem;
+        width: 100%;
+        margin-top: 10px;
+        color: rgba(0, 0, 0, 0.6);
+    }
+
+    .footer-nav {
+        margin-top: -40px;
+        flex-direction: column;
+        gap: 0px;
+        width: 100%;
+    }
+    .nav-item,
+    .nav-item1 {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        font-size: 0.9rem;
+        padding: 0;
+    }
+    .footer-nav ul li{
+        margin-bottom: 10px;
+    }
+    .nav-item1{
+        margin-top: -125px;
+    }
+    .social-icons {
+        margin-top: -130px;
+    }
+
+
+
+
 
 }
