@@ -1,10 +1,15 @@
 .navbar{
     display: flex;
     justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
     width: 1140px;
     height: 71px;
     align-items: center;
+    text-align: center;
 }
+
 li a{
     text-decoration: none;
 }
@@ -12,7 +17,35 @@ nav ul li{
     list-style: none;
     padding-right: 20px;
 }
-.nav-list ul{
+.nav-list ul {
     display: flex;
     
+}
+.dark{
+    color: #252432;
+    font-weight: bold;
+}
+.dark-1{
+    color: #8987A1;
+    font-weight: bold;
+}
+.dark-2{
+    color: #000000;
+}
+@media screen and (max-width: 576px) {
+    .navbar{
+        width: 361px;
+        height: 38px;
+        margin-top: 67px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .dark, .dark-1{
+        visibility: hidden;
+    }
+    .nav-list ul li a {
+        font-size: 12px;
+        white-space: nowrap;
+        align-items: center;
+    }
 }
