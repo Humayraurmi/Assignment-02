@@ -166,6 +166,13 @@ nav ul li{
     font-size: 1.4rem;
     color: rgba(0, 0, 0, 0.5);
 }
+.latest-deals{
+    margin-top: 100px;
+}
+
+
+
+
 @media screen and (max-width: 576px) {
     body{
         border: 1px solid white;
