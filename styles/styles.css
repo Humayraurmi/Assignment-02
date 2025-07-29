@@ -131,7 +131,47 @@ nav ul li{
     font-size: 1rem;
     font-weight: 500;
 }
+.flower-lover{
+    margin-top: 140px;
+    display: flex;
+    justify-content: space-between;
+    gap: auto;
+}
+.plants-lover-image{
+    width: 540px;
+    height: 597px;
+    position: relative;
+}
+.badge{
+     position: absolute;
+     width: 286px;
+     height: 350px;
+     margin-left: -300px;
+     margin-top: -200px;
+}
+.plants-lover-image img{
+    width: 100%;
+}
+
+.lover-description{
+    width: 540px;
+    height: 521px;
+    margin-top: 38px;
+    margin-bottom: 38px;
+}
+.lover-title{
+    font-size: 4rem;
+}
+.lover-details{
+    font-size: 1.4rem;
+    color: rgba(0, 0, 0, 0.5);
+}
 @media screen and (max-width: 576px) {
+    body{
+        border: 1px solid white;
+        max-width: 576px;
+        margin: 0 auto;
+    }
     .navbar{
         width: 361px;
         height: 38px;
@@ -189,7 +229,7 @@ nav ul li{
         grid-template-columns: repeat(2, 1fr);
     }
     .flower{
-        margin-left: 14px;
+        margin-left: 17px;
         margin-right: 17px;
         width: 171px;
         height: 340.5px;
@@ -197,10 +237,6 @@ nav ul li{
     .plants-image{
         width: 171px;
         height: 195px;
-    }
-    .btn-primary{
-        width: 171px;
-        height: 50px;
     }
     .flower-title{
         font-size: 1rem;
@@ -210,5 +246,31 @@ nav ul li{
     .flower-price{
         font-size: 1rem;
         margin: 0;
+    }
+    .btn-primary{
+        width: 171px;
+        height: 50px;
+    }
+    .flower-lover{
+        margin-top: 20px;
+        flex-direction: column;
+    }
+    
+    .plants-lover-image{
+        width: 368px;
+        height: 396px;
+        margin-left: 17px;
+    }
+    .badge{
+        visibility: hidden;
+    }
+    .lover-title{
+        font-size: 1.5rem;
+    }
+    .lover-description{
+        width: 361px;
+        height: 234px;
+        margin-top: 5px;
+        margin-left: 17px;
     }
 }
